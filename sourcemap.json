@@ -105,6 +105,74 @@
 									"children": []
 								}
 							]
+						},
+						{
+							"name": "Metal_1_normal",
+							"className": "Decal",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Metal_1_metallic",
+									"className": "Decal",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Metal_1_basecolor",
+											"className": "Decal",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Metal_1_roughness",
+													"className": "Decal",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Basics",
+							"className": "Folder",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Metal_1",
+									"className": "MaterialVariant",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Metal_1_normal",
+											"className": "Decal",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Metal_1_metallic",
+													"className": "Decal",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Metal_1_basecolor",
+															"className": "Decal",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Metal_1_roughness",
+																	"className": "Decal",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
 						}
 					],
 					"filePaths": [
@@ -195,14 +263,6 @@
 							"name": "ClientModules",
 							"className": "Folder",
 							"children": [
-								{
-									"name": "HazardController",
-									"className": "Folder",
-									"children": [],
-									"filePaths": [
-										"Scripts/ReplicatedStorage/ClientModules/HazardController"
-									]
-								},
 								{
 									"name": "LeaderboardController",
 									"className": "ModuleScript",
@@ -299,6 +359,39 @@
 									],
 									"filePaths": [
 										"Scripts/ReplicatedStorage/ClientModules/UI"
+									]
+								},
+								{
+									"name": "LightingController",
+									"className": "ModuleScript",
+									"children": [
+										{
+											"name": "GrabCurrentLighting",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/ClientModules/LightingController/GrabCurrentLighting.lua"
+											]
+										},
+										{
+											"name": "LightingTypes",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/ClientModules/LightingController/LightingTypes.lua"
+											]
+										},
+										{
+											"name": "TheGrid",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/ClientModules/LightingController/TheGrid.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/ReplicatedStorage/ClientModules/LightingController/LightingController.init.lua"
 									]
 								}
 							],
